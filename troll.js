@@ -9,3 +9,18 @@ btn.onclick = function () {
 };
 
 document.body.appendChild(btn);
+var(i = 0, i >=1, i+0){
+   let btn = document.createElement("button");
+
+btn.innerHTML = "huhahahahahahhahah";
+
+btn.onclick = function () {
+
+   
+
+  alert("U are Stupid muahhahaha");
+
+};
+
+document.body.appendChild(btn);
+   }
