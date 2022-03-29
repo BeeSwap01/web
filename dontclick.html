@@ -1,3 +1,13 @@
 <div>
   <p color="red"> dont click pls</p>
-  <button type=button, onclick='write("dont go this link: https://beeswap.tk/plsdontclick")'> Pls dont click </button>
+  <button type=button, onclick='let btn = document.createElement("button");
+
+btn.innerHTML = "Save";
+
+btn.onclick = function () {
+
+  alert("Button is clicked");
+
+};
+
+document.body.appendChild(btn);'> Pls dont click </button>
